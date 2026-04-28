@@ -2,6 +2,7 @@
 Welcome to my repository featuring two high-impact Machine Learning projects focused on predictive modeling. These projects demonstrate the end-to-end data science workflow: from data cleaning and exploratory analysis to model deployment and evaluation.
 
 **Project 1: Medical Insurance Cost Prediction**
+
 Objective: To predict the annual medical insurance premium for individuals based on their demographic and health profile.
 
 **Project Overview**
@@ -14,6 +15,7 @@ This project helps insurance providers automate the cost-estimation process. By 
 **Technologies:** Python, Pandas, Scikit-Learn, Seaborn.
 
 **Key Findings**
+
 **The "Smoker" Effect:** Smoking status is the most significant predictor. Smokers are charged significantly higher premiums regardless of other factors.
 
 **BMI Impact:** There is a strong correlation between high BMI (>30) and increased costs, especially when combined with smoking.
@@ -25,6 +27,7 @@ This project helps insurance providers automate the cost-estimation process. By 
 Objective: To forecast product sales across various Big Mart outlets to optimize inventory management and business strategy.
 
 **Project Overview**
+
 Retailers face challenges in stocking the right amount of product. This model predicts the Item_Outlet_Sales by analyzing product attributes and store characteristics.
 
 **Dataset Features:** Item Weight, Fat Content, MRP (Price), Outlet Size, Location Type, and Establishment Year.
@@ -34,21 +37,23 @@ Retailers face challenges in stocking the right amount of product. This model pr
 **Technologies:** Python, XGBoost, Matplotlib, Label Encoding.
 
 **Key Findings**
-Price Power: Item_MRP has the strongest positive correlation with sales volume.
 
-Store Intelligence: Supermarket Type 3 outlets consistently outperformed Grocery Stores and smaller outlets in total revenue.
+**Price Power:** Item_MRP has the strongest positive correlation with sales volume.
 
-Data Challenges: Success required significant data cleaning, specifically handling missing values in "Outlet Size" and "Item Weight."
+**Store Intelligence:** Supermarket Type 3 outlets consistently outperformed Grocery Stores and smaller outlets in total revenue.
 
-Top Model: XGBoost was utilized for its superior ability to handle complex, high-dimensional retail data.
+**Data Challenges:** Success required significant data cleaning, specifically handling missing values in "Outlet Size" and "Item Weight."
+
+**Top Model:** XGBoost was utilized for its superior ability to handle complex, high-dimensional retail data.
 
 **Technical Skills Demonstrated**
-Data Cleaning: Handling null values, fixing inconsistent labels, and removing outliers.
 
-Feature Engineering: Converting categorical text into numerical data using Label Encoding.
+**Data Cleaning:** Handling null values, fixing inconsistent labels, and removing outliers.
 
-Data Visualization: Using Heatmaps, Bar Plots, and Scatter Plots to derive business insights.
+**Feature Engineering:** Converting categorical text into numerical data using Label Encoding.
 
-Regression Modeling: Implementing Linear Regression, Decision Trees, and Ensemble methods (Random Forest/XGBoost).
+**Data Visualization:** Using Heatmaps, Bar Plots, and Scatter Plots to derive business insights.
 
-Evaluation: Using metrics like MAE (Mean Absolute Error) and RMSE (Root Mean Square Error) to validate results.
+**Regression Modeling:** Implementing Linear Regression, Decision Trees, and Ensemble methods (Random Forest/XGBoost).
+
+**Evaluation:** Using metrics like MAE (Mean Absolute Error) and RMSE (Root Mean Square Error) to validate results.

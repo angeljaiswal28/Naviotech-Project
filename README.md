@@ -1,11 +1,13 @@
 **Machine Learning Predictive Analysis Portfolio**
+
 Welcome to my repository featuring two high-impact Machine Learning projects focused on predictive modeling. These projects demonstrate the end-to-end data science workflow: from data cleaning and exploratory analysis to model deployment and evaluation.
 
 **Project 1: Medical Insurance Cost Prediction**
 
-Objective: To predict the annual medical insurance premium for individuals based on their demographic and health profile.
+**Objective:** To predict the annual medical insurance premium for individuals based on their demographic and health profile.
 
 **Project Overview**
+
 This project helps insurance providers automate the cost-estimation process. By analyzing historical data, the model identifies which factors (like lifestyle or age) contribute most to healthcare expenses.
 
 **Dataset Features:** Age, Sex, BMI, Number of Children, Smoking Status, and Region.
@@ -24,7 +26,7 @@ This project helps insurance providers automate the cost-estimation process. By 
 
 **Project 2: Big Mart Sales Prediction**
 
-Objective: To forecast product sales across various Big Mart outlets to optimize inventory management and business strategy.
+**Objective:** To forecast product sales across various Big Mart outlets to optimize inventory management and business strategy.
 
 **Project Overview**
 
